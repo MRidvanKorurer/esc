@@ -9,7 +9,7 @@ interface IProps {
 
 const MainLayout: React.FC<IProps> = ({ children }) => {
   return (
-    <div className=" bg-slate-950 mx-auto h-screen text-white">
+    <div className=" bg-slate-950 mx-auto text-white">
       <Header />
       <Navbar />
       <div className=" p-4 flex flex-col gap-10">
